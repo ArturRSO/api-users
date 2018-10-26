@@ -201,12 +201,12 @@ public class UserRepository implements IUserRepository {
 			StringBuilder s = new StringBuilder();
 			
 			if (!notFound.isEmpty()) {
-				s.append("Ao todo, "+ notFound.size() + " n„o foram encontrados, portanto n„o foram inativados.\n");
+				s.append("Ao todo, "+ notFound.size() + " n√£o foram encontrados, portanto n√£o foram inativados.\n");
 				s.append("\n");
 			}
 			
 			if (!alreadyInactive.isEmpty()){
-				s.append("Os seguintes usu·rios j· se encontram inativos:\n");
+				s.append("Os seguintes usu√°rios j√° se encontram inativos:\n");
 				s.append(alreadyInactive);
 				s.append("\n");
 			}
